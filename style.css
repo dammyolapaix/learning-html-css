@@ -1,0 +1,22 @@
+.flex-container {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/* .item {
+  border: 1px solid red;
+} */
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid red;
+}
