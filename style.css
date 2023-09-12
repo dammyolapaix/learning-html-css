@@ -20,3 +20,34 @@ h1 {
   width: 80%;
   border: 1px solid red;
 }
+/* assignment css */
+.my-flex {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+/* pastor image */
+.pastor-img {
+  width: 300px;
+  height: 350px;
+}
+/* main style */
+.about-us {
+  margin: 0 auto;
+  width: 80%;
+}
+.about-text {
+  margin-left: 80px;
+  margin-right: 10px;
+}
+.about-h1 {
+  text-align: center;
+}
+button {
+  padding: 9px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
