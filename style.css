@@ -86,7 +86,7 @@ h1 {
   color: white;
 }
 /* Assignment 2 */
- /* background image */
+/* background image */
 .background-img {
   background-image: url("./images/pexels-josh-sorenson-976866.jpg");
   background-repeat: no-repeat;
@@ -106,24 +106,58 @@ h1 {
   width: 70%;
   height: 600px;
   align-items: center;
-   
 }
-.background-img-text1, .background-img-text2{
+.background-img-text1,
+.background-img-text2 {
   font-size: 55px;
 }
-.background-img-text2{
+.background-img-text2 {
   margin-top: -20px;
 }
-.background-img-text3{
-   font-size: 20px;
-   margin-top: -15px;
-
+.background-img-text3 {
+  font-size: 20px;
+  margin-top: -15px;
 }
-.church-btn{
+.church-btn {
   padding: 15px 20px;
   border-radius: 7px;
   border: 1px solid white;
   background-color: yellow;
   color: black;
   font-weight: bolder;
+}
+/* Assignment 3 */
+nav {
+  background-color: aquamarine;
+}
+.nav-logo {
+  width: 15%;
+}
+.logo {
+  width: 40%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-text {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: blue; */
+  width: 50%;
+  list-style: none;
+  align-items: center;
+  color: blue;
+}
+a {
+  text-decoration: none;
+}
+.nav-btn {
+  padding: 15px 20px;
+  border: 1px solid white;
+  background-color: yellow;
+  color: black;
+  font-weight: bolder;
+  border-radius: 20px;
 }
