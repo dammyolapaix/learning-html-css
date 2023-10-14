@@ -1,8 +1,11 @@
 * {
   padding: 0;
   margin: 0;
+ 
 }
-
+body{
+   background-color: bisque;
+}
 .grid-container {
   display: grid;
   /* grid-template-columns: repeat(12, 1fr); */
@@ -41,6 +44,7 @@
   /* background-color: black; */
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
 
   /* gap: 5px; */
 }

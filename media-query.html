@@ -4,55 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Query</title>
+    <!-- font icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="./media-query.css">
   </head>
-  <style>
-    h1 {
-      color: #fff;
-    }
-    h1 {
-      font-size: 900px;
-    }
-    /* Small screen or phone */
-    /* Any screen below or equal to 600px width*/
-    @media only screen and (max-width: 600px) {
-      body {
-        background: green;
-      }
-      h1 {
-        display: none;
-      }
-    }
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    /* 600px and above */
-    @media only screen and (min-width: 600px) {
-      body {
-        background: blue;
-      }
-    }
-
-    /* Medium devices (landscape tablets, 768px and up) */
-    /* 768px and above */
-    @media only screen and (min-width: 768px) {
-      body {
-        background: yellow;
-      }
-    }
-
-    /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 992px) {
-      body {
-        background: red;
-      }
-    }
-
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {
-      body {
-        background: black;
-      }
-    }
-  </style>
   <body>
-    <h1>Hello</h1>
+    <div class="main-section">
+      <nav>
+        <ul>
+          <img src=" ../images\images-removebg-preview (1).png" alt="" class="nav-logo" />
+          <li><a href="/Home"> Home</a></li>
+          <li><a href=""> Features</a></li>
+          <li><a href=""> Products</a></li>
+          <li><a href="">Testimonials</a></li>
+          <li><button class="nav-btn">Download App</button></li>
+        </ul>
+      </nav>
+      <div class="hero-section">
+        <div class="health">
+          <h1>This is your Healthcare!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+        
+          </p>
+          <div class="btn-all">
+            <button class="btn-start">Get Started</button>
+            <button class="btn-learn">Learn More</button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="../images/Female-Doctor-PNG-Transparent.png"
+            alt=""
+            class="hero-avator"
+          />
+        </div>
+        <div class="hero-others">
+          <div class="year-exp">
+            <h1>15+</h1>
+            <p>Years of Experience</p>
+          </div>
+          <div class="doc-spec">
+            <h1>20K</h1>
+            <p>Doctor Specialist</p>
+          </div>
+          <div class="pati-sat">
+            <h1>100%</h1>
+            <p>Patience Satisfaction</p>
+          </div>
+        </div>
+      </div>
+      <div class="appointment-sec">
+         <h3> Booking an appointment</h3> 
+        <div class="book-appointment">
+          
+          <div><input type="date" placeholder="date"></div>
+          <div><input type="text" placeholder="Location"></div>
+          <div><input type="text" placeholder=" Specialist"></div>
+          <div> <button class="btn-book-now">Book Now</button></div>
+        </div>
+      
+      </div>
+       
+      
+</div>
+    </header>
   </body>
 </html>
